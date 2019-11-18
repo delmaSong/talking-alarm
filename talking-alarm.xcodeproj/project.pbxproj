@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300756C32382841A00E2FD14 /* SetSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300756C22382841A00E2FD14 /* SetSoundViewController.swift */; };
+		300756C52382851800E2FD14 /* SoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300756C42382851800E2FD14 /* SoundCell.swift */; };
 		3096073F2379427A00733CFD /* AlarmVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096073E2379427A00733CFD /* AlarmVO.swift */; };
 		309607412379434600733CFD /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309607402379434600733CFD /* AlarmCell.swift */; };
 		30B162122376FE3D00537B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B162112376FE3D00537B9D /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300756C22382841A00E2FD14 /* SetSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSoundViewController.swift; sourceTree = "<group>"; };
+		300756C42382851800E2FD14 /* SoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCell.swift; sourceTree = "<group>"; };
 		3096073E2379427A00733CFD /* AlarmVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVO.swift; sourceTree = "<group>"; };
 		309607402379434600733CFD /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
 		30B1620E2376FE3D00537B9D /* talking-alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talking-alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				309607402379434600733CFD /* AlarmCell.swift */,
+				300756C42382851800E2FD14 /* SoundCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				30B1621F2376FE3F00537B9D /* Info.plist */,
 				30B16225237703C500537B9D /* SetAlarmViewController.swift */,
 				30B162272377042800537B9D /* RingingViewController.swift */,
+				300756C22382841A00E2FD14 /* SetSoundViewController.swift */,
 			);
 			path = "talking-alarm";
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 				30B162162376FE3D00537B9D /* ViewController.swift in Sources */,
 				30B162282377042800537B9D /* RingingViewController.swift in Sources */,
 				30B162122376FE3D00537B9D /* AppDelegate.swift in Sources */,
+				300756C52382851800E2FD14 /* SoundCell.swift in Sources */,
+				300756C32382841A00E2FD14 /* SetSoundViewController.swift in Sources */,
 				309607412379434600733CFD /* AlarmCell.swift in Sources */,
 				30B162142376FE3D00537B9D /* SceneDelegate.swift in Sources */,
 				3096073F2379427A00733CFD /* AlarmVO.swift in Sources */,
